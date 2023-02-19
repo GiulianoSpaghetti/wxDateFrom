@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wxdatefrom\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 08:53+0100\n"
-"PO-Revision-Date: 2023-02-19 08:57+0100\n"
+"PO-Revision-Date: 2023-02-19 10:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: Giulio Sorrentno\n"
 "Language: it\n"
@@ -47,7 +47,7 @@ msgstr "Ciao utente di Code::Blocks!"
 
 #: wxDateFromMain.cpp:94
 msgid "Insert the name: "
-msgstr "Inserisci il noome: "
+msgstr "Inserisci il nome: "
 
 #: wxDateFromMain.cpp:98
 msgid "Insert the date: "
@@ -91,7 +91,7 @@ msgstr " ore e "
 
 #: wxDateFromMain.cpp:168
 msgid " minutes ago."
-msgstr " minuti."
+msgstr " minuti fa."
 
 #~ msgid "Un altro countdown in wxwidgets"
 #~ msgstr "Un altro countdown in wxwidgets"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wxdatefrom\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 08:53+0100\n"
-"PO-Revision-Date: 2023-02-19 08:56+0100\n"
+"PO-Revision-Date: 2023-02-19 10:10+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -92,7 +92,7 @@ msgstr " horas e "
 
 #: wxDateFromMain.cpp:168
 msgid " minutes ago."
-msgstr " minutos."
+msgstr " minutos atrás."
 
 #~ msgid "Un altro countdown in wxwidgets"
 #~ msgstr "Outra contagem regressiva em wxwidgets"
