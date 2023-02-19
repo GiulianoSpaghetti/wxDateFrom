@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDateCalc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-19 08:53+0100\n"
+"PO-Revision-Date: 2023-02-19 08:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: Giulio Sorrentno\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: wxDateCalcMain.cpp\n"
+"X-Poedit-SearchPath-1: wxDateCalcApp.cpp\n"
+
+#: wxDateFromMain.cpp:63
+msgid "&Quit\tAlt-F4"
+msgstr "&Esci\tAlt-F4"
+
+#: wxDateFromMain.cpp:63
+msgid "Quit the application"
+msgstr "Chiudi il programma"
+
+#: wxDateFromMain.cpp:64
+msgid "&File"
+msgstr "&File"
+
+#: wxDateFromMain.cpp:67
+msgid "&About\tF1"
+msgstr "&Informazioni\tF1"
+
+#: wxDateFromMain.cpp:67
+msgid "Show info about this application"
+msgstr "Mostra le informazioni su questa applicazione"
+
+#: wxDateFromMain.cpp:68
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: wxDateFromMain.cpp:76
+msgid "Hello Code::Blocks user!"
+msgstr "Ciao utente di Code::Blocks!"
+
+#: wxDateFromMain.cpp:94
+msgid "Insert the name: "
+msgstr "Inserisci il noome: "
+
+#: wxDateFromMain.cpp:98
+msgid "Insert the date: "
+msgstr "Inserisci la data: "
+
+#: wxDateFromMain.cpp:100
+msgid "Calculate"
+msgstr "Calcola"
+
+#: wxDateFromMain.cpp:102
+msgid "Images"
+msgstr "Immagini"
+
+#: wxDateFromMain.cpp:146
+msgid "A simple program for calculating how mutch time passed from a given date."
+msgstr "Un semplice programma per calcolare quanto tempo è passato da una determinata data."
+
+#: wxDateFromMain.cpp:159
+msgid "Error"
+msgstr "Errore"
+
+#: wxDateFromMain.cpp:159
+msgid "Invalid lvalue"
+msgstr "Valore non valido"
+
+#: wxDateFromMain.cpp:168
+msgid "Information"
+msgstr "Informazione"
+
+#: wxDateFromMain.cpp:168
+msgid "You met "
+msgstr "Hai incontrato "
+
+#: wxDateFromMain.cpp:168
+msgid " days, "
+msgstr " giorni, "
+
+#: wxDateFromMain.cpp:168
+msgid " hours and "
+msgstr " ore e "
+
+#: wxDateFromMain.cpp:168
+msgid " minutes ago."
+msgstr " minuti."
+
+#~ msgid "Un altro countdown in wxwidgets"
+#~ msgstr "Un altro countdown in wxwidgets"
+
+#~ msgid "There are "
+#~ msgstr "Mancano "
