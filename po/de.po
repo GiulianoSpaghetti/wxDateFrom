@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxdatefrom\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 08:53+0100\n"
-"PO-Revision-Date: 2023-02-19 08:57+0100\n"
+"POT-Creation-Date: 2023-04-18 06:12+0200\n"
+"PO-Revision-Date: 2023-04-18 06:14+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: wxDateFromMain.cpp:63
 msgid "&Quit\tAlt-F4"
@@ -62,40 +62,51 @@ msgstr "Berechnung"
 msgid "Images"
 msgstr "Bilder"
 
-#: wxDateFromMain.cpp:146
-msgid "A simple program for calculating how mutch time passed from a given date."
-msgstr "Ein einfaches Programm, um zu berechnen, wie viel Zeit seit einem bestimmten Datum vergangen ist."
+#: wxDateFromMain.cpp:147
+msgid ""
+"A simple program for calculating how mutch time passed from a given date."
+msgstr ""
+"Ein einfaches Programm, um zu berechnen, wie viel Zeit seit einem bestimmten "
+"Datum vergangen ist."
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Error"
 msgstr "Fehler"
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Invalid lvalue"
 msgstr "Ungültiger lvalue"
 
-#: wxDateFromMain.cpp:168
-msgid "Information"
-msgstr "Information"
-
-#: wxDateFromMain.cpp:168
-msgid "You met "
-msgstr "Du hast getroffen "
-
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " days, "
 msgstr " Tage "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " hours and "
 msgstr " Stunden un "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171
+msgid " minutes have passed."
+msgstr " Minuten sind vergangen."
+
+#: wxDateFromMain.cpp:173
+msgid "You met "
+msgstr "Du hast getroffen "
+
+#: wxDateFromMain.cpp:173
 msgid " minutes ago."
 msgstr " Minuten."
 
-#~ msgid "Un semplice programma per calcolare quanto tempo e' passato da una determinata data."
-#~ msgstr "Ein einfaches Programm, um zu berechnen, wie viel Zeit seit einem bestimmten Datum vergangen ist."
+#: wxDateFromMain.cpp:174
+msgid "Information"
+msgstr "Information"
+
+#~ msgid ""
+#~ "Un semplice programma per calcolare quanto tempo e' passato da una "
+#~ "determinata data."
+#~ msgstr ""
+#~ "Ein einfaches Programm, um zu berechnen, wie viel Zeit seit einem "
+#~ "bestimmten Datum vergangen ist."
 
 #~ msgid "Un altro countdown in wxwidgets"
 #~ msgstr "Ein alter Countdown in wxwidgets"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxdatefrom\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 08:53+0100\n"
+"POT-Creation-Date: 2023-04-18 06:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,35 +61,39 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: wxDateFromMain.cpp:146
+#: wxDateFromMain.cpp:147
 msgid ""
 "A simple program for calculating how mutch time passed from a given date."
 msgstr ""
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Error"
 msgstr ""
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Invalid lvalue"
 msgstr ""
 
-#: wxDateFromMain.cpp:168
-msgid "Information"
-msgstr ""
-
-#: wxDateFromMain.cpp:168
-msgid "You met "
-msgstr ""
-
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " days, "
 msgstr ""
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " hours and "
 msgstr ""
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171
+msgid " minutes have passed."
+msgstr ""
+
+#: wxDateFromMain.cpp:173
+msgid "You met "
+msgstr ""
+
+#: wxDateFromMain.cpp:173
 msgid " minutes ago."
+msgstr ""
+
+#: wxDateFromMain.cpp:174
+msgid "Information"
 msgstr ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxdaterom\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 08:53+0100\n"
-"PO-Revision-Date: 2023-02-19 10:12+0100\n"
+"POT-Creation-Date: 2023-04-18 06:12+0200\n"
+"PO-Revision-Date: 2023-04-18 06:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: wxDateFromMain.cpp:63
 msgid "&Quit\tAlt-F4"
@@ -62,40 +62,44 @@ msgstr "Calculer"
 msgid "Images"
 msgstr "Images"
 
-#: wxDateFromMain.cpp:146
+#: wxDateFromMain.cpp:147
 msgid ""
 "A simple program for calculating how mutch time passed from a given date."
 msgstr ""
 "Un programme simple pour calculer combien de temps s'est écoulé depuis une "
 "date donnée."
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Error"
 msgstr "Erreur"
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Invalid lvalue"
 msgstr "Lvalue invalide"
 
-#: wxDateFromMain.cpp:168
-msgid "Information"
-msgstr "Information"
-
-#: wxDateFromMain.cpp:168
-msgid "You met "
-msgstr "Tu as rencontré"
-
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " days, "
 msgstr " jours "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " hours and "
 msgstr " heures et "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171
+msgid " minutes have passed."
+msgstr " minutes se sont écoulées."
+
+#: wxDateFromMain.cpp:173
+msgid "You met "
+msgstr "Tu as rencontré"
+
+#: wxDateFromMain.cpp:173
 msgid " minutes ago."
 msgstr " minutes."
+
+#: wxDateFromMain.cpp:174
+msgid "Information"
+msgstr "Information"
 
 #~ msgid "Un altro countdown in wxwidgets"
 #~ msgstr "Un autre compte à rebours dans wxwidgets"

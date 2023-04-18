@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxdatefrom\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 08:53+0100\n"
-"PO-Revision-Date: 2023-02-19 10:09+0100\n"
+"POT-Creation-Date: 2023-04-18 06:12+0200\n"
+"PO-Revision-Date: 2023-04-18 06:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: Giulio Sorrentno\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: _\n"
 "X-Poedit-SearchPath-0: wxDateCalcMain.cpp\n"
@@ -61,37 +61,44 @@ msgstr "Calcola"
 msgid "Images"
 msgstr "Immagini"
 
-#: wxDateFromMain.cpp:146
-msgid "A simple program for calculating how mutch time passed from a given date."
-msgstr "Un semplice programma per calcolare quanto tempo è passato da una determinata data."
+#: wxDateFromMain.cpp:147
+msgid ""
+"A simple program for calculating how mutch time passed from a given date."
+msgstr ""
+"Un semplice programma per calcolare quanto tempo è passato da una "
+"determinata data."
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Error"
 msgstr "Errore"
 
-#: wxDateFromMain.cpp:159
+#: wxDateFromMain.cpp:161
 msgid "Invalid lvalue"
 msgstr "Valore non valido"
 
-#: wxDateFromMain.cpp:168
-msgid "Information"
-msgstr "Informazione"
-
-#: wxDateFromMain.cpp:168
-msgid "You met "
-msgstr "Hai incontrato "
-
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " days, "
 msgstr " giorni, "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171 wxDateFromMain.cpp:173
 msgid " hours and "
 msgstr " ore e "
 
-#: wxDateFromMain.cpp:168
+#: wxDateFromMain.cpp:171
+msgid " minutes have passed."
+msgstr " minuti son passati."
+
+#: wxDateFromMain.cpp:173
+msgid "You met "
+msgstr "Hai incontrato "
+
+#: wxDateFromMain.cpp:173
 msgid " minutes ago."
 msgstr " minuti fa."
+
+#: wxDateFromMain.cpp:174
+msgid "Information"
+msgstr "Informazione"
 
 #~ msgid "Un altro countdown in wxwidgets"
 #~ msgstr "Un altro countdown in wxwidgets"
