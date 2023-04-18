@@ -109,6 +109,7 @@ wxDateFromFrame::wxDateFromFrame(wxFrame *frame, const wxString& title)
 
 
 void wxDateFromFrame::salvaData() {
+    config->Write("name", nome->GetValue());
     config->Write("day", data.GetDay());
     config->Write("month", static_cast<unsigned short>(data.GetMonth()));
     config->Write("year", static_cast<int>(data.GetYear()));
@@ -153,6 +154,7 @@ void wxDateFromFrame::OnAbout(wxCommandEvent &event)
 
 void wxDateFromFrame::OnOk(wxCommandEvent &evt) {
     data=calendar->GetDate();
+    wxString s=wxEmptyString;
     wxDateTime t1=wxDateTime::Now();
     wxTimeSpan ts=t1.Subtract(data);
     if (ts.GetValue()<0) {
@@ -160,15 +162,19 @@ void wxDateFromFrame::OnOk(wxCommandEvent &evt) {
         msg->Show();
         delete msg;
         msg = NULL;
+    } else {
+        wxString giorni, ore, minuti;
+        giorni.Printf("%d", ts.GetDays());
+        ore.Printf("%d", ts.GetHours()%24);
+        minuti.Printf("%d", ts.GetMinutes()%60);
+        if (nome->GetValue().IsEmpty())
+            s=giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes have passed.");
+        else
+            s=_("You met ")+nome->GetValue()+wxT(" ")+giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes ago.");
+        wxNotificationMessage *msg = new wxNotificationMessage(_("Information"), s);
+        msg->Show();
+        delete msg;
     }
-    wxString giorni, ore, minuti;
-    giorni.Printf("%d", ts.GetDays());
-    ore.Printf("%d", ts.GetHours()%24);
-    minuti.Printf("%d", ts.GetMinutes()%60);
-    wxNotificationMessage *msg = new wxNotificationMessage(_("Information"), _("You met ")+nome->GetValue()+wxT(" ")+giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes ago."), this);
-    msg->Show();
-    delete msg;
-
 }
 
 

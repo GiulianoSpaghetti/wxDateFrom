@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=wxDateFrom
+Exec=/usr/bin/wxdatefrom
+Icon=/usr/share/icons/wxdatefrom.jpg
+Type=Application
+Categories=Utility;
+Name[it_IT]=wxDateFrom

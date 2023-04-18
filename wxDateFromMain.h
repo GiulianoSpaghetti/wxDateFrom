@@ -7,8 +7,8 @@
  * License:
  **************************************************************/
 
-#ifndef WXDATECALCMAIN_H
-#define WXDATECALCMAIN_H
+#ifndef WXDATEFROMMAIN_H
+#define WXDATEFROMMAIN_H
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -53,4 +53,4 @@ class wxDateFromFrame: public wxFrame
 };
 
 
-#endif // WXDATECALCMAIN_H
+#endif // WXDATEFROMMAIN_H
