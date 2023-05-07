@@ -1,0 +1,19 @@
+Source: wxdatefrom
+Section: unknown
+Priority: optional
+Maintainer: Giulio Sorrentino <gsorre84@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13), libwxgtk3.0-gtk3-dev
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/wxdatefrom
+#Vcs-Git: https://salsa.debian.org/debian/wxdatefrom.git
+
+Package: wxdatefrom
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},libwxgtk3.0-gtk3-0v5
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
