@@ -100,7 +100,9 @@ wxDateFromFrame::wxDateFromFrame(wxFrame *frame, const wxString& title)
     calcola=new wxButton(this, ID_BUTTON_OK, _("Calculate"));
     wxString s=wxFileName::GetPathSeparator();
     img=new wxImage(wxGetHomeDir()+s+_("Images")+s+wxT("background.jpg"));
+    result=new wxStaticText(this, wxID_ANY, wxT(""));
     vbox->Add(calcola, 0, wxALL, 4);
+    vbox->Add(result, 0, wxALL, 4);
     SetSizer(vbox);
     Layout();
     //Fit();
@@ -154,27 +156,22 @@ void wxDateFromFrame::OnAbout(wxCommandEvent &event)
 
 void wxDateFromFrame::OnOk(wxCommandEvent &evt) {
     data=calendar->GetDate();
-    wxString s=wxEmptyString;
+    wxString s;
     wxDateTime t1=wxDateTime::Now();
     wxTimeSpan ts=t1.Subtract(data);
     if (ts.GetValue()<0) {
-        wxNotificationMessage *msg = new wxNotificationMessage(_("Error"), _("Invalid lvalue"), this);
-        msg->Show();
-        delete msg;
-        msg = NULL;
-    } else {
-        wxString giorni, ore, minuti;
-        giorni.Printf("%d", ts.GetDays());
-        ore.Printf("%d", ts.GetHours()%24);
-        minuti.Printf("%d", ts.GetMinutes()%60);
-        if (nome->GetValue().IsEmpty())
-            s=giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes have passed.");
-        else
-            s=_("You met ")+nome->GetValue()+wxT(" ")+giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes ago.");
-        wxNotificationMessage *msg = new wxNotificationMessage(_("Information"), s);
-        msg->Show();
-        delete msg;
+        result->SetLabel(_("Invalid lvalue"));
+        return;
     }
+    wxString giorni, ore, minuti;
+    giorni.Printf("%d", ts.GetDays());
+    ore.Printf("%d", ts.GetHours()%24);
+    minuti.Printf("%d", ts.GetMinutes()%60);
+        if (nome->GetValue()=="")
+    s=giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes ")+_(" are passed.");
+    else
+    s=_("You met ")+nome->GetValue()+wxT(" ")+giorni+_(" days, ")+ore+_(" hours and ")+minuti+_(" minutes ago.");
+	result->SetLabel(s);
 }
 
 
