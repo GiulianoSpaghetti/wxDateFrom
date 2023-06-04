@@ -36,7 +36,7 @@ bool wxDateFromApp::OnInit()
         m_locale->AddCatalog("wxmsw");
 
     wxInitAllImageHandlers();
-    wxDateFromFrame* frame = new wxDateFromFrame(0L, "wxFromCalc");
+    wxDateFromFrame* frame = new wxDateFromFrame(0L, "wxDateFrom");
     frame->Show();
 
     return true;
