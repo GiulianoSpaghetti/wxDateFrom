@@ -1,16 +1,16 @@
 # wxDateFrom
-Un programma per calcolare quanto tempo è passato da una determinata data in wxwidgets.
-
+Il primo programma per pc dedicato alle donne che non è un videogioco .
+Serve per rompere il ghiaccio durante una relazione interpersonale, ossia per approcciare.
 # Installazione
 
-# Tramite flatpak (consigliato perché ci sono le wxwidgets 3.2 invece che 3.0)
-Date i seguenti comandi:
+# Tramite repository
+Seguite le istruzioni su http://numeronesoft.ddns.net
 
-sudo apt install flatpak
+Poi installate il wxdatefrom.
 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# Tramite flatpak (sconsigliato)
 
-flatpak remote-add --if-not-exists numeronesoft http://numeronesoft.ddns.net:8080/numeronesoft.flatpakrepo
+Seguite le istruziomni su http://numeronesoft.ddns.net:8080
 
 flatpak install --user org.altervista.numerone.wxdatefrom (è importante il --user, l'app viene installata in userspace, così si possono salvare le opzioni)
 
@@ -28,10 +28,9 @@ Infine dare il comando
 flatpak run org.flatpak.Builder --user --install --force-clean ./build/ org.altervista.numerone.wxdaterom.yml 
 
 
-# Donazioni
+# Donazione
 
-[![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
+[![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JZVR4QQFGLR6Q)
 
 Puoi donare anche tramite carta Hype a patto di avere il mio numero di cellulare nella rubrica. Sai dove lo puoi trovare? Sul mio curriculum.
 Apri l'app Hype, fai il login, seleziona PAGAMENTI, INVIA DENARO, seleziona il mio numero nella rubrica, imposta l'importo, INSERISCI LA CAUSALE e segui le istruzioni a video.
-
