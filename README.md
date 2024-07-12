@@ -1,14 +1,14 @@
 # wxDateFrom
 Il primo programma per pc dedicato alle donne che non è un videogioco .
 Serve per rompere il ghiaccio durante una relazione interpersonale, ossia per approcciare.
-# Installazione
+## Installazione
 
-# Tramite repository
+## Tramite repository
 Seguite le istruzioni su http://numeronesoft.ddns.net
 
 Poi installate il wxdatefrom.
 
-# Tramite flatpak (sconsigliato)
+## Tramite flatpak (sconsigliato)
 
 Seguite le istruziomni su http://numeronesoft.ddns.net:8080
 
@@ -16,7 +16,12 @@ flatpak install --user org.altervista.numerone.wxdatefrom (è importante il --us
 
 flatpak run org.altervista.numerone.wxdatefrom
 
-# Compilazione con Flatpak
+
+## Su snap store
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wxdatefrom)
+
+## Compilazione con Flatpak
 Installate flatpak con apt, aggiungete il repository uficiale, installate flatpakbuilder con flatpak poi installateflathub org.gnome.Platform//43
 flathub org.gnome.Sdk//43
 con flatpak e poi date il comando
